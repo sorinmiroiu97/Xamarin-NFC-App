@@ -1,0 +1,1 @@
+This is a ready to use app written in C#, using the Xamarin framework. It is compatible with the Android devices startging from 2.3 (gingerbread). This is a sample showing how to use the NFC library within the Android framework and you can in this app write anything you want into an NFC chip (by typing into the EditText) and read anything you want from an NFC chip.
