@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+    <Button
+        android:id="@+id/button_back_to_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back_to_main_activity"
+        android:layout_marginBottom="15dp"
+        android:padding="25dp"
+        android:textSize="15sp" />
+<!--    if there is an image that will be shown as a result by reading 
+    the nfc tag this is the imgview -->
+    <ImageView
+        android:id="@+id/iv_nfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter" />
+<!--    if there is a text that will be shown as a result by reading 
+    the nfc tag than this is the textview -->
+    <TextView
+        android:id="@+id/tv_nfcText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="bottom" />
+</LinearLayout>
